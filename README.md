@@ -135,4 +135,4 @@ Local verification: 12 component/API-client tests and 6 HTTP API tests passed; l
 
 The useful interview evidence is what you can explain, modify, test, and debug yourself. This is a learning POC rather than production insurance software.
 
-Start with the [complete code and interview guide](INTERVIEW_GUIDE.md) for the architecture, concepts, likely questions, model answers and study checklist. Use the shorter [code walkthrough](WALKTHROUGH.md) for a quick revision, then implement the **premium sorting** exercise to practise extending the existing filtering behavior.
+Read [the code walkthrough](WALKTHROUGH.md), then implement the **premium sorting** exercise to practise extending the existing filtering behavior.

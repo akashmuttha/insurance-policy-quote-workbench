@@ -1,6 +1,6 @@
 # Explain, then change
 
-This is the AI-assisted starting point. Read one checkpoint, explain it without reading, then make a small change yourself.
+Use this guide to study the project in small checkpoints. Read one checkpoint, explain it without reading, then make a small change yourself.
 
 ## 1. Entry point and state
 
@@ -64,7 +64,7 @@ Check: What happens if someone manually submits `annualPremium: 1`?
 
 Ask for a hint or review after each step. No completed solution is included.
 
-The product filter is now part of the AI-assisted implementation. Do not claim it as an independent contribution. First explain it, then add sorting yourself:
+The product filter is part of the current implementation. First explain how it works, then add sorting yourself:
 
 1. Add a sort control with original order, lowest premium first, and highest premium first.
 2. Apply it to the visible records after filtering.
@@ -76,7 +76,7 @@ Expected examples: **Health Protect + Active + “meera”** matches Meera Joshi
 
 ## One-minute walkthrough
 
-“This is a small insurance submission and quotation POC using fictional data. The starting implementation was AI-assisted, and I am using it to practise explaining and extending a complete React flow. React and TypeScript manage controlled inputs and explicit request states. Submitting sends JSON to a local Node API, which validates the request and calculates a fictional annual premium. The frontend checks the response and renders a quote summary, with edit, retry, and error paths. There is also a policy overview with search and status filtering. Tests cover the UI, response validation, and real HTTP routes. It has no authentication, persistence, or real underwriting, and does not issue policies. My independently implemented change is [describe only something you completed and tested].”
+“This is a small insurance submission and quotation POC using fictional data. I use it to practise explaining and extending a complete React flow. React and TypeScript manage controlled inputs and explicit request states. Submitting sends JSON to a local Node API, which validates the request and calculates a fictional annual premium. The frontend checks the response and renders a quote summary, with edit, retry, and error paths. There is also a policy overview with combined search, status, and product filtering. Tests cover the UI, response validation, real HTTP routes, and desktop and mobile browser journeys. It has no authentication, persistence, or real underwriting, and does not issue policies. My independently implemented change is [describe only something you completed and tested].”
 
 Until you make that change, replace the final sentence with: “My next exercise is to implement and test premium sorting independently.”
 

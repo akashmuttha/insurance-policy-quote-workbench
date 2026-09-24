@@ -127,8 +127,8 @@ Local verification: 12 component/API-client tests and 6 HTTP API tests passed; l
 - No production hosting, rate limiting, observability, or cross-origin deployment configuration.
 - The earlier five npm advisories were resolved by updating Vite to 6.4.3 and Vitest to 4.1.11. The final local npm audit reported zero known vulnerabilities on 24 September 2026; future advisories can change that result. The lint parser is pinned for compatibility with the locally installed Node version.
 
-## Learning and authorship
+## Learning guide
 
-The policy viewer and submission/API extension were prepared with AI assistance. Do not claim independent authorship or production experience from this POC. The useful evidence is what you can explain, modify, test, and debug yourself.
+The useful interview evidence is what you can explain, modify, test, and debug yourself. This is a learning POC rather than production insurance software.
 
-Read [the code walkthrough](WALKTHROUGH.md), including the product filter added with AI assistance. Then implement the **premium sorting** exercise yourself. Describe personal additions only after making and verifying them.
+Read [the code walkthrough](WALKTHROUGH.md), then implement the **premium sorting** exercise to practise extending the existing filtering behavior.

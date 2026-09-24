@@ -1,0 +1,8 @@
+[
+  { "id": "POL-1001", "customerName": "Asha Kulkarni", "product": "Health Protect", "premium": 18400, "status": "Active", "renewalDate": "15 Jan 2027" },
+  { "id": "POL-1002", "customerName": "Rohan Deshpande", "product": "Motor Comprehensive", "premium": 9200, "status": "Pending", "renewalDate": "02 Feb 2027" },
+  { "id": "POL-1003", "customerName": "Neha Shah", "product": "Home Secure", "premium": 12600, "status": "Active", "renewalDate": "21 Mar 2027" },
+  { "id": "POL-1004", "customerName": "Imran Khan", "product": "Motor Comprehensive", "premium": 7800, "status": "Expired", "renewalDate": "18 Jul 2026" },
+  { "id": "POL-1005", "customerName": "Meera Joshi", "product": "Health Protect", "premium": 22000, "status": "Active", "renewalDate": "09 Apr 2027" },
+  { "id": "POL-1006", "customerName": "Vikram Patil", "product": "Home Secure", "premium": 15400, "status": "Pending", "renewalDate": "30 May 2027" }
+]

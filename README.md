@@ -4,6 +4,10 @@ A small React and TypeScript workspace for submitting fictional customer details
 
 ## UI preview
 
+### Create a submission
+
+![Create submission form with customer, insurance product, and coverage amount fields](docs/screenshots/submission-form.png)
+
 ### Quote summary
 
 ![Quote summary showing the fictional annual premium and submitted policy details](docs/screenshots/quote-summary.png)

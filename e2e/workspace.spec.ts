@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test';
 
 test('customer can validate, quote through the real API, edit, and start again', async ({ page }, testInfo) => {
   await page.goto('/');
+  await page.screenshot({ path: testInfo.outputPath('submission-form.png'), fullPage: true });
   await page.getByRole('button', { name: /calculate quote/i }).click();
   await expect(page.getByRole('alert')).toBeFocused();
   await page.getByRole('link', { name: /customer name: enter/i }).click();

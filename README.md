@@ -2,6 +2,16 @@
 
 A small React and TypeScript workspace for submitting fictional customer details, obtaining a server-calculated quote, and reviewing sample policies. Built for learning and interview demonstration. No employer code, real customer records, or insurer connections.
 
+## UI preview
+
+### Quote summary
+
+![Quote summary showing the fictional annual premium and submitted policy details](docs/screenshots/quote-summary.png)
+
+### Policy overview
+
+![Policy overview showing combined filters and the side-by-side policy details panel](docs/screenshots/policy-overview.png)
+
 ## Run locally
 
 From this directory (the one containing `package.json`):
